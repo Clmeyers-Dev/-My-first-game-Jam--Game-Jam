@@ -25,12 +25,12 @@ public class LoadGame : MonoBehaviour
     
     public void LoadPlayer()
     {
-        playerManager.savePlayer();
+        //playerManager.savePlayer();
         
         PlayerData data = SaveSystem.LoadPlayer();
 
-        playerStatManager.currentHealth = data.health;
-        playerMovement.currrentFuleLevel = data.fuel;
+       // playerStatManager.currentHealth = data.health;
+        //playerMovement.currrentFuleLevel = data.fuel;
 
         Vector3 position;
         position.x = data.position[0];

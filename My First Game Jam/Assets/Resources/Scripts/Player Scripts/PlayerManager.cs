@@ -40,7 +40,7 @@ public class PlayerManager : MonoBehaviour
     void Start()
     {
         
-        int levelCount = SceneManager.sceneCountInBuildSettings - 1;
+        int levelCount = SceneManager.sceneCountInBuildSettings ;
         playerStatManager.currentHealth = GlobalControl.instance.hp;
 
         for (int i = 0; i < levelCount; i++)
