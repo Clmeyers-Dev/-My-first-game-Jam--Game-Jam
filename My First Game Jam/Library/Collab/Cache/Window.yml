@@ -14,13 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Resources/Scripts/Player Scripts/PlayerManager.cs
-    - Assets/Resources/Scripts/Player Scripts/PlayerManager.cs.meta
-    - Assets/Scenes/SampleScene.unity
+    - Assets/Resources/Scripts/Enemy Scripts/EnemyMeleeAttack.cs
+    - Assets/Resources/Scripts/Enemy Scripts/EnemyMeleeAttack.cs.meta
     - 
-    m_Values: 00000000
+    m_Values: 010101
   RevisionSummary: 
   ChangesSearchValue: 
-  SelectedHistoryRevision: 
+  SelectedHistoryRevision: 8488eac5634852847aeba1a1c6016bad846442cc
   HistoryPageNumber: 0
   TabIndex: 0
