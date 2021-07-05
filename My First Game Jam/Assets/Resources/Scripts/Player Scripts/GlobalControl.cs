@@ -1,6 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GlobalControl : MonoBehaviour
 {
@@ -8,11 +12,8 @@ public class GlobalControl : MonoBehaviour
     public static GlobalControl instance;
     public float hp = 100;
     public float fp = 100;
-    
-    public GameObject Player;
     void Awake()
     {
-        Player = FindObjectOfType<PlayerManager>().gameObject;
         Application.targetFrameRate = 144;
         if (instance == null)
         {
@@ -24,7 +25,7 @@ public class GlobalControl : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    
     // Update is called once per frame
     void Update()
     {

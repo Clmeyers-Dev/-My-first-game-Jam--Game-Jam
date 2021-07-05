@@ -20,6 +20,7 @@ public class DamageOnTouch : MonoBehaviour
         if(continuous){
             playerStat = FindObjectOfType<PlayerStatManager>();
         }
+        playerStat = FindObjectOfType<PlayerStatManager>();
     }
 
     // Update is called once per frame
@@ -38,14 +39,14 @@ public class DamageOnTouch : MonoBehaviour
             damaged = true;
         }
     }
-    void onTriggerExit2D(Collider col){
+    void OnTriggerExit2D(Collider2D other){
         inside = false;
     }
     void OnTriggerEnter2D(Collider2D col){
         if(col.tag == "Player"){
             inside = true;
-            PlayerStatManager playStat = col.GetComponentInParent<PlayerStatManager>();
-           player = col.GetComponentInParent<Rigidbody2D>();
+            PlayerStatManager playStat = col.GetComponent<PlayerStatManager>();
+           player = col.GetComponent<Rigidbody2D>();
            GameObject playerObject = col.gameObject;
             if(!damaged){
             playStat.DamagePlayer(damage);

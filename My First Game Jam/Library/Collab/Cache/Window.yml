@@ -14,8 +14,83 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/JumpingGhostBehavior.cs
+    - Assets/JumpingGhostBehavior.cs.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/Idle.anim
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/Idle.anim.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhost.controller
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhost.controller.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhostIdle.rar
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhostIdle.rar.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhostIdle1.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhostIdle1.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhostIdle2.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhostIdle2.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhostIdle3.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhostIdle3.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhostIdle4.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhostIdle4.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhostIdle5.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Idle/JumpingGhostIdle5.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpStart.anim
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpStart.anim.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping.rar
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping.rar.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping1.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping1.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping10.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping10.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping11.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping11.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping12.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping12.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping13.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping13.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping2.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping2.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping3.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping3.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping4.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping4.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping5.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping5.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping6.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping6.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping7.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping7.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping8.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping8.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping9.png
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingGhostJumping9.png.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingUp.anim
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/JumpingUp.anim.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/fallingDown.anim
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/fallingDown.anim.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/hitGround.anim
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/hitGround.anim.meta
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/jumpingDown.anim
+    - Assets/Resources/Art/Enemy Art/JumpingGhost/Jumping/jumpingDown.anim.meta
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost.meta
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle.meta
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle1.png
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle1.png.meta
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle2.png
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle2.png.meta
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle3.png
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle3.png.meta
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle4.png
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle4.png.meta
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle5.png
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle5.png.meta
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle6.png
+    - Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle6.png.meta
+    - Packages/packages-lock.json
+    - ProjectSettings/ProjectVersion.txt
     - 
-    m_Values: 01
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

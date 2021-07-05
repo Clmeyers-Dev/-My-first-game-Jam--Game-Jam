@@ -44,4 +44,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 100
+  fp: 100
+  saveNum: 0
+  path: 
+  saveNumString: 
+  saveNums: []
+  filePaths: []
   Player: {fileID: 0}

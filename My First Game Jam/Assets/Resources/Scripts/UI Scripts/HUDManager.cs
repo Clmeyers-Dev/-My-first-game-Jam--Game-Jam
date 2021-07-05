@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 public class HUDManager : MonoBehaviour
@@ -10,7 +12,11 @@ public class HUDManager : MonoBehaviour
     private PlayerStatManager playerStatManager;
     public Slider fuleBar;
     public bool menuUp;
+    public bool saveUp;
     public GameObject Menu;
+    public GameObject savesmenu;
+    public GameObject saveInput;
+    private GlobalControl globalControl = GlobalControl.instance;
     void Start()
     {
         playerManager = FindObjectOfType<PlayerManager>();
@@ -19,6 +25,8 @@ public class HUDManager : MonoBehaviour
         fuleBar.maxValue = playerManager.playerMovement.MaxFule;
         menuUp = false;
         Menu.SetActive(false);
+        savesmenu.SetActive(false);
+        saveInput.SetActive(false);
 
     }
 
@@ -31,5 +39,26 @@ public class HUDManager : MonoBehaviour
     public void ToggleMenu(){
         menuUp=!menuUp;
         Menu.SetActive(menuUp);
+    }
+
+    public void OpenSaveMenu()
+    {
+            saveUp = true;
+            menuUp = !menuUp;
+            Menu.SetActive(menuUp);
+            savesmenu.SetActive(saveUp);
+    }
+
+    public void CloseSaveMenu()
+    {
+        saveUp = false;
+        menuUp = !menuUp;
+        Menu.SetActive(menuUp);
+        savesmenu.SetActive(saveUp);
+    }
+
+    public void OnSaveNameEdit(string newText)
+    {
+        
     }
 }

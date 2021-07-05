@@ -15,7 +15,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637608792433118622
+      ticks: 637611145768787017
     m_Hash: 3623518892
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -3655,6 +3655,7 @@ m_PackageAssets:
         - 7.5.2
         - 7.5.3
         - 7.6.0
+        - 7.7.0
         - 8.0.1
         - 8.1.0
         - 8.2.0
@@ -3673,9 +3674,11 @@ m_PackageAssets:
         - 10.3.2
         - 10.4.0
         - 10.5.0
+        - 10.5.1
         compatible:
         - 10.4.0
         - 10.5.0
+        - 10.5.1
         verified: 10.4.0
       dependencies:
       - name: com.unity.ugui
@@ -3803,6 +3806,7 @@ m_PackageAssets:
         - 7.5.2
         - 7.5.3
         - 7.6.0
+        - 7.7.0
         - 8.0.1
         - 8.1.0
         - 8.2.0
@@ -3820,9 +3824,11 @@ m_PackageAssets:
         - 10.3.2
         - 10.4.0
         - 10.5.0
+        - 10.5.1
         compatible:
         - 10.4.0
         - 10.5.0
+        - 10.5.1
         verified: 10.4.0
       dependencies:
       - name: com.unity.render-pipelines.core

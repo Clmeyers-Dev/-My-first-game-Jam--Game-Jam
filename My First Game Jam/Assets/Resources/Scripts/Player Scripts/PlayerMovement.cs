@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public float regenAmount;
     public PlayerManager playerManager;
     public PlayerStatManager playerStatManager;
+    public HUDManager hudManager;
     private Rigidbody2D rigidbody2D;
 
     [Header("Jumping and Ground detection")]
@@ -46,9 +47,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float airMoveSpeed = 10f;
     public float maxSpeed = 3.4f;
     public GameObject playerModel;
+    [Header("Player Jump Timer")]
+    private float jumpTimeCounter;
+    public float jumpTime;
+    public bool isJumping;
     void Awake()
     {
         playerManager = GetComponent<PlayerManager>();
+        hudManager = GameObject.Find("PlayerHUD").GetComponent<HUDManager>();
         rigidbody2D = playerManager.GetComponent<Rigidbody2D>();
         if (OnLandEvent == null)
             OnLandEvent = new UnityEvent();
@@ -61,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         PlayerSpriteCode playerSpriteCode = playerModel.GetComponent<PlayerSpriteCode>();
+      #region jetPack
         if(Input.GetKey(KeyCode.UpArrow)&&currrentFuleLevel>0){
             useJetPack = true;
             currrentFuleLevel -= jetpackCost *Time.deltaTime;
@@ -68,6 +75,7 @@ public class PlayerMovement : MonoBehaviour
             useJetPack = false;
             currrentFuleLevel += regenAmount *Time.deltaTime;
         }
+        #endregion
         if(Input.GetKey(KeyCode.A)&&facingRight){
            playerSpriteCode.flip();
            facingRight = false;
@@ -93,16 +101,6 @@ public class PlayerMovement : MonoBehaviour
         ySpeed = rigidbody2D.velocity.y;
         //This is the input from the horizontal value between -1 (left) and 1(right)
         xDirectionalInput = Input.GetAxis("Horizontal");
-
-        //If the player has released the Jump key and their velocity is greater than 0 then their jump can end early
-        if (Input.GetKeyUp(KeyCode.Space) && ySpeed > 0)
-        {
-            jumpend = true;
-        }
-        else
-        {
-            jumpend = false;
-        }
         //If the Y speed is postive the player is currently moving up and they are not falling
         if (ySpeed > 0)
         {
@@ -118,18 +116,27 @@ public class PlayerMovement : MonoBehaviour
         //When the player press the jump butten and they are grounded the player jumps else jump is false
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            jump = true;
+            isJumping = true;
+            jumpTimeCounter = jumpTime;
             rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, jumpHeight);
-
+           
         }
-        else
-        {
-
-            jump = false;
+        if(Input.GetKeyUp(KeyCode.Space)){
+            isJumping = false;
         }
-        if (Input.GetKeyDown(KeyCode.F2))
-        {
-            SaveSystem.SavePlayer(playerStatManager, this, playerManager);
+        if(Input.GetKey(KeyCode.Space)){
+            if(jumpTimeCounter>0&&isJumping==true){
+                rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, jumpHeight);
+                jumpTimeCounter-=Time.deltaTime;
+                 if(Input.GetKeyUp(KeyCode.Space)){
+                isJumping = false;
+            }
+            }else{
+                isJumping =false;
+            }
+            if(Input.GetKeyUp(KeyCode.Space)){
+                isJumping = false;
+            }
         }
     }
 
