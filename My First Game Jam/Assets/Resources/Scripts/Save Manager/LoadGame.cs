@@ -40,21 +40,27 @@ public class LoadGame : MonoBehaviour
 
         // playerStatManager.currentHealth = data.health;
         //playerMovement.currrentFuleLevel = data.fuel;
-
+        
+        // Loads the previous scene where the player was before they died and had to reload.
+        SceneManager.LoadScene(data.level);
+        
+        // Gets the old position from the position float array. then sets it to the player's position.
         Vector3 position;
         position.x = data.position[0];
         position.y = data.position[1];
         position.z = data.position[2];
         transform.position = position;
 
-        SceneManager.LoadScene(data.level);
+        
+        
     }
 
+    // Deletes the player's save when the delete button is pushed.
     public void DeletePlayerSave(Button buttonb)
     {
         if (buttonb == null) return;
-        
-        var saveNumChars = name.ToCharArray(buttonb.name.Length - 1, 1);
+
+        var saveNumChars = buttonb.name.ToCharArray(buttonb.name.Length - 1, 1);
         var saveNum = float.Parse(saveNumChars[0].ToString());
         SaveSystem.DeleteSave(SaveSystem.FindPath(saveNum));
     }

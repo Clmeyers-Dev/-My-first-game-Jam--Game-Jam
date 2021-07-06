@@ -1,0 +1,718 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 16325 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+H:\storage\Unity\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+H:/GameDevelopment/Head-empty-no-thoughts-theGame-/My First Game Jam
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54297
+Successfully changed project path to: H:/GameDevelopment/Head-empty-no-thoughts-theGame-/My First Game Jam
+H:/GameDevelopment/Head-empty-no-thoughts-theGame-/My First Game Jam
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 68.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path H:/storage/Unity/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/GameDevelopment/Head-empty-no-thoughts-theGame-/My First Game Jam/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 5500 XT (ID=0x7340)
+    Vendor:   
+    VRAM:     8151 MB
+    Driver:   27.20.21003.8013
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'H:/storage/Unity/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'H:/storage/Unity/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'H:/storage/Unity/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: H:/storage/Unity/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: H:/storage/Unity/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001705 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.662 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3415 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.3 MB.
+System memory in use after: 148.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3850.
+Total: 3.135100 ms (FindLiveObjects: 0.485600 ms CreateObjectMapping: 0.317400 ms MarkObjects: 2.197400 ms  DeleteObjects: 0.133900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle6.png
+  artifactKey: Guid(982261ba7d142d04ea9c52666a91ffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle6.png using Guid(982261ba7d142d04ea9c52666a91ffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7130a4e786fec42b1b925173a3d92aa2') in 0.216388 seconds
+  Import took 0.231183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle3.png
+  artifactKey: Guid(3ff6c76754f9f1749af59aad8c6f8b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle3.png using Guid(3ff6c76754f9f1749af59aad8c6f8b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc8d38fd4849fc0227f788a49fb06dd') in 0.011007 seconds
+  Import took 0.032325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle1.png
+  artifactKey: Guid(14a72e95275d24143b3265a647ec409b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle1.png using Guid(14a72e95275d24143b3265a647ec409b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c124561d718ddd6a114d5aea0e984bc') in 0.011589 seconds
+  Import took 0.022493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle2.png
+  artifactKey: Guid(22ef228617a45494a8fc18134124fff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle2.png using Guid(22ef228617a45494a8fc18134124fff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1c65065da9f592ac70ee64d79d8d33') in 0.012839 seconds
+  Import took 0.029323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle5.png
+  artifactKey: Guid(fcbf3da4364a7424f9ee8bbc4386d439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle5.png using Guid(fcbf3da4364a7424f9ee8bbc4386d439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf2c556b6b74f94324b6390b2ea7e9e') in 0.011878 seconds
+  Import took 0.029148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle4.png
+  artifactKey: Guid(08004beff2d693d4b9ecd8c5ec0cc51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle4.png using Guid(08004beff2d693d4b9ecd8c5ec0cc51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2090377589fd09d60dfbc786d719e1e0') in 0.010563 seconds
+  Import took 0.027138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.130592 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle1.png
+  artifactKey: Guid(14a72e95275d24143b3265a647ec409b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle1.png using Guid(14a72e95275d24143b3265a647ec409b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4202cf3443e184336c41a0e7a2c6577b') in 0.006686 seconds
+  Import took 0.021793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle6.png
+  artifactKey: Guid(982261ba7d142d04ea9c52666a91ffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle6.png using Guid(982261ba7d142d04ea9c52666a91ffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb19b665575254f8bfe4f386773f3ed') in 0.006191 seconds
+  Import took 0.011878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle3.png
+  artifactKey: Guid(3ff6c76754f9f1749af59aad8c6f8b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle3.png using Guid(3ff6c76754f9f1749af59aad8c6f8b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69ad43ae80dfe43df89b99d75397db9') in 0.008553 seconds
+  Import took 0.025287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle2.png
+  artifactKey: Guid(22ef228617a45494a8fc18134124fff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle2.png using Guid(22ef228617a45494a8fc18134124fff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660bb64bb1120df5f3d4729bbad9bca9') in 0.006995 seconds
+  Import took 0.033120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle5.png
+  artifactKey: Guid(fcbf3da4364a7424f9ee8bbc4386d439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle5.png using Guid(fcbf3da4364a7424f9ee8bbc4386d439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6536ebe6e708c58ec5c4c3674008607b') in 0.010193 seconds
+  Import took 0.033411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle4.png
+  artifactKey: Guid(08004beff2d693d4b9ecd8c5ec0cc51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle4.png using Guid(08004beff2d693d4b9ecd8c5ec0cc51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fdbd5425e2dbcb45075020f44b137d') in 0.007088 seconds
+  Import took 0.013021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.448316 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle1.png
+  artifactKey: Guid(14a72e95275d24143b3265a647ec409b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle1.png using Guid(14a72e95275d24143b3265a647ec409b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bbd3ba94f2307375ff448c54a47ccf') in 0.006180 seconds
+  Import took 0.023561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle6.png
+  artifactKey: Guid(982261ba7d142d04ea9c52666a91ffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle6.png using Guid(982261ba7d142d04ea9c52666a91ffeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8c0a43ede1fb9576ef51044a58c542') in 0.006848 seconds
+  Import took 0.027500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle3.png
+  artifactKey: Guid(3ff6c76754f9f1749af59aad8c6f8b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle3.png using Guid(3ff6c76754f9f1749af59aad8c6f8b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3b24872744e6478d56fb71ed9ebb70') in 0.006025 seconds
+  Import took 0.013159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle2.png
+  artifactKey: Guid(22ef228617a45494a8fc18134124fff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle2.png using Guid(22ef228617a45494a8fc18134124fff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115a64b7515852bd39534e78cf691400') in 0.037228 seconds
+  Import took 0.057706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle5.png
+  artifactKey: Guid(fcbf3da4364a7424f9ee8bbc4386d439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle5.png using Guid(fcbf3da4364a7424f9ee8bbc4386d439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '224f627aa6bcd80767ac788e060dae73') in 0.006544 seconds
+  Import took 0.011548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle4.png
+  artifactKey: Guid(08004beff2d693d4b9ecd8c5ec0cc51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle4.png using Guid(08004beff2d693d4b9ecd8c5ec0cc51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6df81a3f7e021ae208c7ed9f63c671') in 0.007269 seconds
+  Import took 0.046876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001172 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle4.png
+  artifactKey: Guid(08004beff2d693d4b9ecd8c5ec0cc51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Idle/WalkingGhostIdle4.png using Guid(08004beff2d693d4b9ecd8c5ec0cc51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6df81a3f7e021ae208c7ed9f63c671') in 0.007130 seconds
+  Import took 0.012636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.555980 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick1.png
+  artifactKey: Guid(4ac11b6533f653949a7a5ca63dbfc610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick1.png using Guid(4ac11b6533f653949a7a5ca63dbfc610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b97e988739c6a716dbb3abbb5d8b66') in 0.012130 seconds
+  Import took 0.017773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick2.png
+  artifactKey: Guid(d32fa96b312aaab498400a0386ebfdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick2.png using Guid(d32fa96b312aaab498400a0386ebfdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff42272254d75df784b598ced6247a59') in 0.010123 seconds
+  Import took 0.015199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick3.png
+  artifactKey: Guid(7b510f7009a06c34cbca8d3312383046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick3.png using Guid(7b510f7009a06c34cbca8d3312383046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7032b7912aac70c659cca4189612e6') in 0.010362 seconds
+  Import took 0.038371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick6.png
+  artifactKey: Guid(f9aa92d7fe2c4394e88064901ebf1165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick6.png using Guid(f9aa92d7fe2c4394e88064901ebf1165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c24eeb2e6c01d788b0ec170f79c9317') in 0.010357 seconds
+  Import took 0.022299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick4.png
+  artifactKey: Guid(a96ab17bb1f75264388aaccd35d21666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick4.png using Guid(a96ab17bb1f75264388aaccd35d21666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a39c21aea928df80a905bd4ddfb9feb') in 0.019491 seconds
+  Import took 0.043263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick5.png
+  artifactKey: Guid(47e730788eda73c4e949ae69d2992264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick5.png using Guid(47e730788eda73c4e949ae69d2992264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385832335d57578f83ddb85090458429') in 0.014370 seconds
+  Import took 0.040469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.769858 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick1.png
+  artifactKey: Guid(4ac11b6533f653949a7a5ca63dbfc610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick1.png using Guid(4ac11b6533f653949a7a5ca63dbfc610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb055e30f8e9cb0919893ce7c4faf95b') in 0.009966 seconds
+  Import took 0.015587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick2.png
+  artifactKey: Guid(d32fa96b312aaab498400a0386ebfdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick2.png using Guid(d32fa96b312aaab498400a0386ebfdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea81d95b0728b0795e733f992c19862') in 0.009998 seconds
+  Import took 0.033044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick3.png
+  artifactKey: Guid(7b510f7009a06c34cbca8d3312383046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick3.png using Guid(7b510f7009a06c34cbca8d3312383046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef12a6b2a9622480bcd8cc7ae46fd36') in 0.012165 seconds
+  Import took 0.031129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick6.png
+  artifactKey: Guid(f9aa92d7fe2c4394e88064901ebf1165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick6.png using Guid(f9aa92d7fe2c4394e88064901ebf1165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203619734bcd7b734b1a30d35720ed6c') in 0.010113 seconds
+  Import took 0.015988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick3.png
+  artifactKey: Guid(7b510f7009a06c34cbca8d3312383046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick3.png using Guid(7b510f7009a06c34cbca8d3312383046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef12a6b2a9622480bcd8cc7ae46fd36') in 0.006491 seconds
+  Import took 0.012011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick4.png
+  artifactKey: Guid(a96ab17bb1f75264388aaccd35d21666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick4.png using Guid(a96ab17bb1f75264388aaccd35d21666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0237849a8ebe2178e4cd4898ffa214') in 0.010337 seconds
+  Import took 0.044844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick5.png
+  artifactKey: Guid(47e730788eda73c4e949ae69d2992264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Kick/WalkingGhostKick5.png using Guid(47e730788eda73c4e949ae69d2992264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3353235df537565ed3a32a5a801dec') in 0.009635 seconds
+  Import took 0.026595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.553033 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/transition/WalkingGhostIdleIdle2Walk1.png
+  artifactKey: Guid(7b5ffcfefe10946419f938597736acff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/transition/WalkingGhostIdleIdle2Walk1.png using Guid(7b5ffcfefe10946419f938597736acff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a8a1f5aebdde5d8ec101434a13b670') in 0.010195 seconds
+  Import took 0.021113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/transition/WalkingGhostIdleIdle2Walk2.png
+  artifactKey: Guid(8672a77a31065934296328bf7401676d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/transition/WalkingGhostIdleIdle2Walk2.png using Guid(8672a77a31065934296328bf7401676d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ecb6c55bbcf33f68e8fc0285f5d9bc') in 0.010204 seconds
+  Import took 0.015538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.510414 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/transition/WalkingGhostIdleIdle2Walk1.png
+  artifactKey: Guid(7b5ffcfefe10946419f938597736acff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/transition/WalkingGhostIdleIdle2Walk1.png using Guid(7b5ffcfefe10946419f938597736acff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2760dd760478fd9eeb1ef21f5c336e93') in 0.010920 seconds
+  Import took 0.016801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/transition/WalkingGhostIdleIdle2Walk2.png
+  artifactKey: Guid(8672a77a31065934296328bf7401676d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/transition/WalkingGhostIdleIdle2Walk2.png using Guid(8672a77a31065934296328bf7401676d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4969350831a0002a702b70e40cc7d3') in 0.009219 seconds
+  Import took 0.028043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.932646 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk1.png
+  artifactKey: Guid(11d5134d4e5b22245ae02c61e5413567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk1.png using Guid(11d5134d4e5b22245ae02c61e5413567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2050a149188634fd859f6d5aad656615') in 0.009303 seconds
+  Import took 0.014408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk6.png
+  artifactKey: Guid(edad9117a91f25d4ebaea77c2046f5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk6.png using Guid(edad9117a91f25d4ebaea77c2046f5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f016580e927f3a3217d74f647d48a5') in 0.010488 seconds
+  Import took 0.015368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk3.png
+  artifactKey: Guid(350fc1ef5736e3b44b5345db43c4e824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk3.png using Guid(350fc1ef5736e3b44b5345db43c4e824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de538f6293980e7660ac58ba0818e42') in 0.010358 seconds
+  Import took 0.031518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk4.png
+  artifactKey: Guid(d2dc739d55eda4a4b98042c9cdee0268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk4.png using Guid(d2dc739d55eda4a4b98042c9cdee0268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09321da7504d6654d51157532db08044') in 0.012878 seconds
+  Import took 0.052200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk8.png
+  artifactKey: Guid(b4abd7df18a927a429e97d864e1bccc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk8.png using Guid(b4abd7df18a927a429e97d864e1bccc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96f025935095a890814f1b33dbd63aa') in 0.010911 seconds
+  Import took 0.052677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk2.png
+  artifactKey: Guid(0575477dee9d020479d84ac0356f7001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk2.png using Guid(0575477dee9d020479d84ac0356f7001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5b5421ac8e737bfede4ef42c1f63e1') in 0.011848 seconds
+  Import took 0.016750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk7.png
+  artifactKey: Guid(579159856699bb34d8b63bab15e11983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk7.png using Guid(579159856699bb34d8b63bab15e11983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cfa4add93e2b36e8f4c77dcf72dc48') in 0.022362 seconds
+  Import took 0.027737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk5.png
+  artifactKey: Guid(899a41badf3797e4b922b70395ff7fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk5.png using Guid(899a41badf3797e4b922b70395ff7fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ab9dafa4318a1e57c49288b56701ff') in 0.015320 seconds
+  Import took 0.021031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.631981 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk1.png
+  artifactKey: Guid(11d5134d4e5b22245ae02c61e5413567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk1.png using Guid(11d5134d4e5b22245ae02c61e5413567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9784c256772ceacc6781b8d77d5eb3c2') in 0.010133 seconds
+  Import took 0.051553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk6.png
+  artifactKey: Guid(edad9117a91f25d4ebaea77c2046f5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk6.png using Guid(edad9117a91f25d4ebaea77c2046f5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14efcb73becdb701293f26490cf26d2d') in 0.015545 seconds
+  Import took 0.039610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk3.png
+  artifactKey: Guid(350fc1ef5736e3b44b5345db43c4e824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk3.png using Guid(350fc1ef5736e3b44b5345db43c4e824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8c19581c8d528ff62170421309fa56') in 0.011692 seconds
+  Import took 0.025990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk4.png
+  artifactKey: Guid(d2dc739d55eda4a4b98042c9cdee0268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk4.png using Guid(d2dc739d55eda4a4b98042c9cdee0268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181b335522407f0e24c3ac49202def12') in 0.012224 seconds
+  Import took 0.017702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk8.png
+  artifactKey: Guid(b4abd7df18a927a429e97d864e1bccc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk8.png using Guid(b4abd7df18a927a429e97d864e1bccc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074705281167bb0c117e64b5f8430461') in 0.012134 seconds
+  Import took 0.042912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk2.png
+  artifactKey: Guid(0575477dee9d020479d84ac0356f7001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk2.png using Guid(0575477dee9d020479d84ac0356f7001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398076126d9190ad735418927c10f632') in 0.017361 seconds
+  Import took 0.045899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk7.png
+  artifactKey: Guid(579159856699bb34d8b63bab15e11983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk7.png using Guid(579159856699bb34d8b63bab15e11983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ab2686663561c5b95ff0108b00a383') in 0.010486 seconds
+  Import took 0.024409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk5.png
+  artifactKey: Guid(899a41badf3797e4b922b70395ff7fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/WalkingGhostWalk5.png using Guid(899a41badf3797e4b922b70395ff7fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7cc691d092a09d8f114a71f3365635') in 0.034428 seconds
+  Import took 0.040640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.504949 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/idle.anim
+  artifactKey: Guid(1924f1f14e24b3a4481b2450fef3e3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/idle.anim using Guid(1924f1f14e24b3a4481b2450fef3e3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f58aa1d230763a9bf8f63e0a952d9bb') in 0.029799 seconds
+  Import took 0.068034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045883 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/idle.anim
+  artifactKey: Guid(1924f1f14e24b3a4481b2450fef3e3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/idle.anim using Guid(1924f1f14e24b3a4481b2450fef3e3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f58aa1d230763a9bf8f63e0a952d9bb') in 0.005198 seconds
+  Import took 0.017820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.041708 seconds.
+  path: Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/transition.anim
+  artifactKey: Guid(4db1096127ed1b544b6c938dab303bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enemy Art/aWalkingGhost/Walk/transition.anim using Guid(4db1096127ed1b544b6c938dab303bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a2c52ac5d2dd5a3b41158a6b2d583b') in 0.010090 seconds
+  Import took 0.024892 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004444 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.237 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3291 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.1 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3860.
+Total: 3.437800 ms (FindLiveObjects: 0.392900 ms CreateObjectMapping: 0.152100 ms MarkObjects: 2.773900 ms  DeleteObjects: 0.118100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3745.526489 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo.png
+  artifactKey: Guid(83d39a88fc17efb4385387bd474c7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo.png using Guid(83d39a88fc17efb4385387bd474c7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739a103737bab3d71368943ea7c2d5c5') in 0.056391 seconds
+  Import took 0.079203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.182894 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo.png
+  artifactKey: Guid(83d39a88fc17efb4385387bd474c7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo.png using Guid(83d39a88fc17efb4385387bd474c7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2a88d4a4cd3ae4b3097d7f55c8e8c8') in 0.008919 seconds
+  Import took 0.014181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.427249 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo.png
+  artifactKey: Guid(83d39a88fc17efb4385387bd474c7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo.png using Guid(83d39a88fc17efb4385387bd474c7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd999ed8fe481acf3c942ecbeb733d973') in 0.056083 seconds
+  Import took 0.061290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.492625 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo.png
+  artifactKey: Guid(83d39a88fc17efb4385387bd474c7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo.png using Guid(83d39a88fc17efb4385387bd474c7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684a25882581c025e3e6e79892cb5e8f') in 0.064240 seconds
+  Import took 0.083072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.416722 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo.png
+  artifactKey: Guid(83d39a88fc17efb4385387bd474c7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo.png using Guid(83d39a88fc17efb4385387bd474c7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d186ec4738fb574d503fdccbc0c0390') in 0.062608 seconds
+  Import took 0.068419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.442092 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/GroundTwo.prefab
+  artifactKey: Guid(f563d2a4ab8096748b03735955c7ad93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/GroundTwo.prefab using Guid(f563d2a4ab8096748b03735955c7ad93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8ab3b901d29c24e5a2a30d0a17ff90') in 0.015990 seconds
+  Import took 0.024754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.840752 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/GroundTwo.prefab
+  artifactKey: Guid(f563d2a4ab8096748b03735955c7ad93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/GroundTwo.prefab using Guid(f563d2a4ab8096748b03735955c7ad93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609ffca1677f0d8ae4ca6cfb052b9e04') in 0.003731 seconds
+  Import took 0.015465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_12.asset
+  artifactKey: Guid(150b978c7e9f9fa45be4bbad7a35aa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_12.asset using Guid(150b978c7e9f9fa45be4bbad7a35aa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01210de4722ecfe8e26e687530058cd1') in 0.024342 seconds
+  Import took 0.032438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_3.asset
+  artifactKey: Guid(b485a633bdee7af42b6daea58ceaecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_3.asset using Guid(b485a633bdee7af42b6daea58ceaecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776b69cea9490a7ba3cb2ca63e259a57') in 0.009061 seconds
+  Import took 0.018744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_6.asset
+  artifactKey: Guid(935638dcf6b03ff4ab72c88c06e4635d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_6.asset using Guid(935638dcf6b03ff4ab72c88c06e4635d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dcf733eb517f41a44e5db8243583be') in 0.008962 seconds
+  Import took 0.014877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_10.asset
+  artifactKey: Guid(8c40b2dcae69d5543bc9bbc5b5feb91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_10.asset using Guid(8c40b2dcae69d5543bc9bbc5b5feb91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ddbdfee3f429a1cfcd4d7b4ad27e8f') in 0.008925 seconds
+  Import took 0.014562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_8.asset
+  artifactKey: Guid(e38e025817fdc7d419446662993e914e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_8.asset using Guid(e38e025817fdc7d419446662993e914e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fa2b3e657b0f338108833395229061') in 0.007777 seconds
+  Import took 0.012535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_11.asset
+  artifactKey: Guid(c4e7ae51d63110c4b9dbca7883199a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_11.asset using Guid(c4e7ae51d63110c4b9dbca7883199a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36004eb975ab61739ddc30b8de3c96b') in 0.009337 seconds
+  Import took 0.014541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_5.asset
+  artifactKey: Guid(a37b1413468d67b43a05acd3807749c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_5.asset using Guid(a37b1413468d67b43a05acd3807749c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df098d673bdd3f36ea7bc3ad06c41052') in 0.008080 seconds
+  Import took 0.013696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_7.asset
+  artifactKey: Guid(be941aa9d98acd742949aeda69350b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_7.asset using Guid(be941aa9d98acd742949aeda69350b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80379030d12c95153b7b35dc95395025') in 0.016734 seconds
+  Import took 0.022598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_2.asset
+  artifactKey: Guid(4085cf036df89d14bbd1215934e2219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_2.asset using Guid(4085cf036df89d14bbd1215934e2219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac91dbaa07d8435e8d7ed544ec58ecf') in 0.009087 seconds
+  Import took 0.014358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_0.asset
+  artifactKey: Guid(5f69ba157fe9c154d890dfe228ef915e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_0.asset using Guid(5f69ba157fe9c154d890dfe228ef915e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a25b6b10cfd582286462f1af7c8c71') in 0.009986 seconds
+  Import took 0.014982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_1.asset
+  artifactKey: Guid(7bf062207ae207e40a176167c85bc9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_1.asset using Guid(7bf062207ae207e40a176167c85bc9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d284809a397d37925cc5c29f163dbb5') in 0.019584 seconds
+  Import took 0.045260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_9.asset
+  artifactKey: Guid(48484c032267daa42ad2d707ff97161d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_9.asset using Guid(48484c032267daa42ad2d707ff97161d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293f3659acd26b6a376ba116d76e9345') in 0.009331 seconds
+  Import took 0.014046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_4.asset
+  artifactKey: Guid(9499d306cdc941447927bf39098b2fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Art/Enviornment Art/MoonTileSetTwo/MoonTileSetTwo_4.asset using Guid(9499d306cdc941447927bf39098b2fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd154fa509679b479df476ca09c36d2') in 0.008696 seconds
+  Import took 0.013594 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3291 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.2 MB.
+System memory in use after: 143.3 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3871.
+Total: 3.205400 ms (FindLiveObjects: 0.339200 ms CreateObjectMapping: 0.152700 ms MarkObjects: 2.573200 ms  DeleteObjects: 0.139200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

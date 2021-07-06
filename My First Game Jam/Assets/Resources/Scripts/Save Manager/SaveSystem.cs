@@ -16,19 +16,22 @@ public static class SaveSystem
         if (saveMethods.saveNums.Count != 10)
         {
             // Adds to the save number variable, allowing for a new save afterwards.
-            saveMethods.saveNum++;
-            saveMethods.saveNums.Add(saveMethods.saveNum);
             var saveNumString = saveMethods.FloattoString(saveMethods.saveNum);
             var formatter = new BinaryFormatter();
+            // Saves the least used path in windows plus save(number).sv to the path variable.
             var path = Application.persistentDataPath + "/save" + saveNumString + ".sv";
+            // Goes through every button in the button array!
             foreach (var button in saveMethods.buttons)
             {
+                // Counts down from how many Save Numbers are in the saveNums list.
                 for (var i = 0; i < saveMethods.saveNums.Count; i++)
                 {
+                    // Turns the button's name into a char array with a length of one, getting the saveNum!
                     var buttonNums = button.name.ToCharArray(button.name.Length - 1, 1);
                     var buttonNum = float.Parse(buttonNums[0].ToString());
                     if (saveMethods.saveNum != buttonNum) continue;
-                    saveMethods.saveInput.SetActive(true);
+                    var buttonText = button.transform.Find("Text").GetComponent<Text>();
+                    buttonText.text = "Save Occupied!";
                     break;
                 }
             }
@@ -38,6 +41,9 @@ public static class SaveSystem
 
             formatter.Serialize(stream, data);
             stream.Close();
+            
+            saveMethods.saveNums.Add(saveMethods.saveNum);
+            saveMethods.saveNum++;
         }
         else
         {
@@ -50,6 +56,7 @@ public static class SaveSystem
         // Finds the path
         var saveMethods = SaveMethods.instance;
         var saveNumString = saveNum.ToString(CultureInfo.InvariantCulture);
+        // Finds the file path that actually exists and contains the saveNumString and returns it.
         return saveMethods.filePaths.FirstOrDefault(path => File.Exists(path) && path.Contains(saveNumString));
     }
 
@@ -83,7 +90,7 @@ public static class SaveSystem
                 SaveMethods.instance.saveNums.Remove(SaveMethods.instance.saveNum);
                 // Gets the current unsaved saveNum by subtracting savNum by one
                 SaveMethods.instance.saveNum--;
-                SaveMethods.instance.filePaths[SaveMethods.instance.filePaths.Length - 1] = null;
+                SaveMethods.instance.filePaths[SaveMethods.instance.filePaths.Count - 1] = null;
                 File.Delete(path);
                 break;
             }

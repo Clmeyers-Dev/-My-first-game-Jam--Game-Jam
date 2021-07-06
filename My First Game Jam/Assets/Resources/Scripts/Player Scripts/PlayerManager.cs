@@ -93,12 +93,12 @@ public class PlayerManager : MonoBehaviour
                   // playerAnimation.changeAnimationState("PlayerMeleeAttack");
                     if (!switchSound)
                     {
-                        soundManager.playSound("Swing");
+                        //soundManager.playSound("Swing");
                         switchSound = !switchSound;
                     }
                     else
                     {
-                        soundManager.playSound("Swing2");
+                       // soundManager.playSound("Swing2");
                         switchSound = !switchSound;
                     }
                     Attack();
@@ -109,12 +109,12 @@ public class PlayerManager : MonoBehaviour
                     Attack();
                     if (!switchSound)
                     {
-                        soundManager.playSound("Swing");
+                        //soundManager.playSound("Swing");
                         switchSound = !switchSound;
                     }
                     else
                     {
-                        soundManager.playSound("Swing2");
+                       // soundManager.playSound("Swing2");
                         switchSound = !switchSound;
                     }
                     // playerMovement.r2d.constraints = RigidbodyConstraints2D.FreezePositionY|RigidbodyConstraints2D.FreezePositionX;
@@ -125,12 +125,12 @@ public class PlayerManager : MonoBehaviour
                     Attack();
                     if (!switchSound)
                     {
-                        soundManager.playSound("Swing");
+                       // soundManager.playSound("Swing");
                         switchSound = !switchSound;
                     }
                     else
                     {
-                        soundManager.playSound("Swing2");
+                        //soundManager.playSound("Swing2");
                         switchSound = !switchSound;
                     }
                 }

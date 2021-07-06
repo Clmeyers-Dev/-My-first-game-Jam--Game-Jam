@@ -52,6 +52,7 @@ public class SceneTrigger : MonoBehaviour
         }
 
         Load.LoadThis(sceneToLoad);
+//        SaveMethods.instance.InitializeSaveNum();
     }
 
 }

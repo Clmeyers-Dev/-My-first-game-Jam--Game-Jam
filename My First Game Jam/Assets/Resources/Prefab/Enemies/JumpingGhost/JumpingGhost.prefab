@@ -148,8 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6846ecf56b7874d9bb1aeb63c42f5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 100
-  maxHealth: 100
+  currentHealth: 30
+  maxHealth: 30
   flashLength: 0.2
   flashActive: 0
   canFlash: 1
@@ -215,6 +215,8 @@ MonoBehaviour:
   Player: {fileID: 0}
   target: {x: 0, y: 0, z: 0}
   speed: 1
+  range: 10
+  distance: 0
 --- !u!50 &8584104849514251281
 Rigidbody2D:
   serializedVersion: 4

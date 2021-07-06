@@ -12,12 +12,13 @@ public class Gun : MonoBehaviour
     public bool facingRight = true;
     [SerializeField] private float attackDelay;
     public SpriteRenderer gunSprite;
+   public SoundManager soundManager;
     private void Awake(){
     gunSprite = GetComponentInChildren<SpriteRenderer>();
     }
     void Start()
     {
-        
+        soundManager = GetComponent<SoundManager>();
     }
 
     // Update is called once per frame
@@ -52,6 +53,7 @@ public class Gun : MonoBehaviour
         isAttacking = true;
         Instantiate(bullet,SpawnPoint.position,SpawnPoint.rotation);
         Invoke("attackComplete", attackDelay);
+        soundManager.audioSource.Play();
     }
     public void flip(){
          facingRight = !facingRight;

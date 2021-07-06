@@ -13,6 +13,8 @@ public class PlayerData
     public float health;
     public float fuel;
     public float[] position;
+    public float saveNum;
+    public string saveName;
 
     public PlayerData(PlayerStatManager playerStats, PlayerMovement playerMovement, PlayerManager playerManager)
     {

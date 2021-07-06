@@ -28,6 +28,8 @@ public class JumpingGhostBehavior : MonoBehaviour
     public GameObject Player;
     public Vector3 target;
     public float speed;
+    public float range;
+    public float distance;
    
     void Start()
     {
@@ -38,6 +40,8 @@ public class JumpingGhostBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+         distance = Vector3.Distance(transform.position,Player.transform.position);
+        if(distance<range){
       if(Player.transform.position.x>transform.position.x){
           //move right
           rb.velocity = new Vector2(1*speed,rb.velocity.y);
@@ -59,7 +63,7 @@ public class JumpingGhostBehavior : MonoBehaviour
         }else{
             isJumping = false;
         }
-       
+        }
         animator.SetBool("isJumping",isJumping);
         YVelocity = rb.velocity.y;
         animator.SetFloat("YVelocity",YVelocity);
